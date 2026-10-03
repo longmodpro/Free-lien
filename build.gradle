@@ -1,22 +1,3 @@
-plugins { id 'com.android.application' }
-
-android {
-    namespace 'com.ise.battleroyale'
-    compileSdk 34
-
-    defaultConfig {
-        applicationId 'com.ise.battleroyale'
-        minSdk 23
-        targetSdk 34
-        versionCode 1
-        versionName "1.0"
-    }
-
-    buildTypes {
-        release {
-            minifyEnabled false
-            shrinkResources false
-        }
-        debug { minifyEnabled false }
-    }
+plugins {
+    id 'com.android.application' version '8.2.2' apply false
 }
