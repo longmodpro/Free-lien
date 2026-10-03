@@ -1,0 +1,19 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.ise.battleroyale'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'com.ise.battleroyale'
+        minSdk 23
+        targetSdk 34
+        versionCode 1
+        versionName '1.0'
+    }
+}
+
+dependencies {
+}
